@@ -300,9 +300,9 @@ h3 {
 .cordial-section {
   position: relative;
   overflow: hidden;
-  background:
+  /* background:
     url("assets/invitation-card-no-photo.png") left -180px bottom -280px / 470px auto no-repeat,
-    var(--paper);
+    var(--paper); */
 }
 
 .countdown-section {
@@ -477,11 +477,11 @@ h3 {
   object-fit: contain;
 }
 
-.venues-section {
+/* .venues-section {
   background:
     url("assets/invitation-card-no-photo.png") right -210px top -360px / 500px auto no-repeat,
     var(--paper);
-}
+} */
 
 .venue-grid {
   display: grid;
