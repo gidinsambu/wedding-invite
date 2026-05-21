@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Guest Link Generator | Enoch & Sylivia</title>
+    <meta
+      name="description"
+      content="Generate personalized guest links for Enoch and Sylivia's wedding invitation."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Great+Vibes&family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="generator-body">
+    <header class="site-header" aria-label="Guest link navigation">
+      <a class="brand-mark" href="index.html">E & S</a>
+      <nav class="nav-links" aria-label="Generator navigation">
+        <a href="index.html">Invitation</a>
+      </nav>
+    </header>
+
+    <main class="generator-main">
+      <section class="section-inner generator-grid" aria-labelledby="generator-title">
+        <div class="generator-copy">
+          <p class="eyebrow">Invite Tools</p>
+          <h1 id="generator-title">Guest Link Generator</h1>
+
+          <form class="generator-form" data-generator-form>
+            <label class="field-label" for="base-url">Invitation URL</label>
+            <input class="text-field" id="base-url" type="url" data-base-url />
+
+            <label class="field-label" for="guest-names">New Guests</label>
+            <textarea
+              class="text-field textarea-field"
+              id="guest-names"
+              data-guest-names
+              placeholder="Sarah Nabunya&#10;Mr. and Mrs. Kato"
+            ></textarea>
+
+            <div class="action-row">
+              <button class="button primary" type="submit">Generate Links</button>
+              <button class="button secondary" type="button" data-copy-links>
+                Copy Links
+              </button>
+            </div>
+            <p class="copy-status" data-generator-status aria-live="polite"></p>
+          </form>
+        </div>
+
+        <div class="generator-panel" aria-labelledby="links-title">
+          <div class="panel-heading">
+            <h2 id="links-title">Invite Links</h2>
+            <span data-link-count>0 links</span>
+          </div>
+          <div class="link-list" data-link-list></div>
+        </div>
+      </section>
+
+      <section class="section-inner generator-code" aria-labelledby="entries-title">
+        <div class="generator-code-heading">
+          <div>
+            <p class="script-line">Guest Entries</p>
+            <h2 id="entries-title">Add to guests.js</h2>
+          </div>
+          <button class="button secondary" type="button" data-copy-entries>
+            Copy Entries
+          </button>
+        </div>
+        <textarea class="text-field code-field" data-guest-entries readonly></textarea>
+      </section>
+    </main>
+
+    <script src="guests.js"></script>
+    <script src="generator.js"></script>
+  </body>
+</html>

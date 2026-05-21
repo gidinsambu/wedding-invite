@@ -477,6 +477,164 @@ h3 {
   object-fit: contain;
 }
 
+.generator-body {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #fffaf5 0%, #f7ece5 100%);
+}
+
+.generator-main {
+  padding-top: 86px;
+}
+
+.generator-grid {
+  display: grid;
+  grid-template-columns: minmax(320px, 0.88fr) minmax(360px, 1.12fr);
+  gap: 44px;
+  align-items: start;
+}
+
+.generator-copy h1 {
+  margin: 0;
+  font-family: "Playfair Display", "Cormorant Garamond", Georgia, serif;
+  font-size: 3rem;
+  line-height: 1.05;
+}
+
+.generator-form {
+  display: grid;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.field-label {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.text-field {
+  width: 100%;
+  border: 1px solid rgba(166, 66, 36, 0.28);
+  border-radius: 8px;
+  background: #fffefe;
+  color: var(--ink);
+  font: inherit;
+  line-height: 1.45;
+}
+
+input.text-field {
+  min-height: 48px;
+  padding: 0 14px;
+}
+
+textarea.text-field {
+  min-height: 150px;
+  padding: 12px 14px;
+  resize: vertical;
+}
+
+.text-field:focus {
+  border-color: var(--copper);
+  box-shadow: 0 0 0 4px rgba(166, 66, 36, 0.12);
+  outline: none;
+}
+
+.generator-panel {
+  border: 1px solid rgba(166, 66, 36, 0.2);
+  border-radius: 8px;
+  background: rgba(255, 254, 254, 0.82);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.panel-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 22px;
+  border-bottom: 1px solid rgba(166, 66, 36, 0.16);
+}
+
+.panel-heading h2 {
+  font-size: 1.8rem;
+}
+
+.panel-heading span {
+  color: var(--muted);
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.link-list {
+  display: grid;
+  max-height: 620px;
+  overflow: auto;
+}
+
+.link-item {
+  display: grid;
+  grid-template-columns: minmax(0, 0.75fr) minmax(0, 1.25fr) auto;
+  gap: 12px;
+  align-items: center;
+  padding: 16px 22px;
+  border-bottom: 1px solid rgba(166, 66, 36, 0.12);
+}
+
+.link-item:last-child {
+  border-bottom: 0;
+}
+
+.link-meta {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.link-meta strong,
+.link-meta span,
+.link-item a {
+  overflow-wrap: anywhere;
+}
+
+.link-meta span {
+  color: var(--muted);
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
+.link-item a {
+  color: var(--copper-dark);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.compact-button {
+  min-height: 38px;
+  padding: 8px 12px;
+}
+
+.generator-code {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.42fr) minmax(320px, 0.58fr);
+  gap: 32px;
+  align-items: start;
+  padding-top: 0;
+}
+
+.generator-code-heading {
+  display: grid;
+  gap: 18px;
+  justify-items: start;
+}
+
+.code-field {
+  min-height: 180px;
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 0.92rem;
+}
+
 /* .venues-section {
   background:
     url("assets/invitation-card-no-photo.png") right -210px top -360px / 500px auto no-repeat,
@@ -582,6 +740,11 @@ h3 {
     position: static;
   }
 
+  .generator-grid,
+  .generator-code {
+    grid-template-columns: 1fr;
+  }
+
   .venue-grid {
     grid-template-columns: 1fr;
   }
@@ -633,6 +796,11 @@ h3 {
 
   .button {
     width: 100%;
+  }
+
+  .link-item {
+    grid-template-columns: 1fr;
+    align-items: start;
   }
 
   .family-copy {
