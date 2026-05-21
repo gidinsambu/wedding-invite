@@ -11,5 +11,12 @@ window.INVITE_GUESTS = {
   "mr.-and-mrs.-gayi-eric-kasule": "Mr. & Mrs. Gayi Eric Kasule",
   "kasujja-james-raymond": "Kasujja James Raymond",
   "simon-peter": "Simon Peter",
-  "mr.-and-mrs.-mulindwa-john": "Mr. & Mrs. Mulindwa John"
+  "mr.-and-mrs.-mulindwa-john": "Mr. & Mrs. Mulindwa John",
+  "jean-clement-sekiranda": "Jean Clement Sekiranda",
+  "cissy-nansamba": "Cissy Nansamba",
+  "deborah-arinaitwe": "Deborah Arinaitwe",
+  "judith-atholere": "Judith Atholere",
+  "gloria-lamunu": "Gloria Lamunu",
+  "etot-james-lucas": "Etot James Lucas",
+  "karugaba-joseph": "Karugaba Joseph"
 };
