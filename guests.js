@@ -87,5 +87,16 @@ window.INVITE_GUESTS = {
   "aunt-rose-nakajjubi": "Aunt Rose Nakajjubi Kisaabwa",
   "mr.-and-mrs.-bukenya-denis": "Mr. & Mrs. Bukenya Denis",
   "mr.-and-mrs.-yiga-deo": "Mr. & Mrs. Yiga Deo",
-  "kojja-ssendawula-frank": "Kojja SSendawula Frank"
+  "kojja-ssendawula-frank": "Kojja SSendawula Frank",
+  "ms.-babirye-georgia": "Ms. Babirye Georgia",
+  "ms.-anitah-nalwoga": "Ms. Anitah Nalwoga",
+  "mr.-lukwata-andrew-2": "Mr. Lukwata Andrew",
+  "ms.-dorcus-nassove": "Ms. Dorcus Nassove",
+  "mr.-kirabo-eric-2": "Mr. Kirabo Eric",
+  "aunt-cathy-and-family": "Aunt Cathy & Family",
+  "aunt-joan-and-family-2": "Aunt Joan & Family",
+  "buyinja-family": "Buyinja Family",
+  "aunt-namaganda-margret": "Aunt Namaganda Margret",
+  "ms.-namala-winnie": "Ms. Namala Winnie",
+  "mrs.-mugasa-becky": "Mrs. Mugasa Becky",
 };
