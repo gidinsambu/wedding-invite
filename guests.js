@@ -1,7 +1,7 @@
 // Add invited guests here. The key is used in links like index.html?guest=gideon-kalanzi.
 window.INVITE_GUESTS = {
   "mrs.-nsereko-rose": "Mrs. Nsereko Rose",
-  "mr-and-mrs-nsambu": "Mr. & Mrs. Nsambu",
+  "mr.-and-mrs.-nsambu": "Mr. & Mrs. Nsambu",
   "ms.-linda-nambalirwa": "Ms. Linda Nambalirwa",
   "mrs.-lillian-sonko": "Mrs. Lillian Sonko",
   "mr.-and-mrs.-sekajja-arthur": "Mr. & Mrs. Sekajja Arthur",
@@ -12,7 +12,7 @@ window.INVITE_GUESTS = {
   "kasujja-james-raymond": "Kasujja James Raymond",
   "simon-peter": "Simon Peter",
   "mr.-and-mrs.-mulindwa-john": "Mr. & Mrs. Mulindwa John",
-  "jean-clement-sekiranda": "Jean Clement Sekiranda",
+  "mr.-and-mrs.-jean-clement-sekiranda": "Mr. & Mrs. Jean Clement Sekiranda",
   "ms.-cissy-nansamba": "Ms. Cissy Nansamba",
   "gideon-kalanzi": "Gideon Kalanzi",
   "ms.-deborah-arinaitwe": "Ms. Deborah Arinaitwe",
@@ -60,7 +60,7 @@ window.INVITE_GUESTS = {
   "mr.-victor": "Mr. Victor",
   "ms.-lamunu-gloria-2": "Ms. Lamunu Gloria",
   "mr.-asiimwe-emmanuel": "Mr. Asiimwe Emmanuel",
-  "mr.-ronald-oyom": "Mr. Ronald Oyom",
+  "mr.-and-mrs.-ronald-oyom": "Mr. & Mrs. Ronald Oyom",
   "mr.-jean-clement": "Mr. Jean Clement",
   "ms.-judith-masika": "Ms. Judith Masika",
   "ms.-nansamba-cissy": "Ms. Nansamba Cissy",
