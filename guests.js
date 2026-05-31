@@ -106,4 +106,5 @@ window.INVITE_GUESTS = {
   "ms.-namayanja-sandra": "Ms. Namayanja Sandra",
   "mr.-brian-kasozi": "Mr. Brian Kasozi", 
   "eng-and-mrs-arthur-kaweesi": "Eng. & Mrs. Arthur Kaweesi",
+  "engrs.-john-and-vicky-kalema": "Engrs. John & Vicky Kalema",
 };
