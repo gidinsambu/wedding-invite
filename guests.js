@@ -109,7 +109,7 @@ window.INVITE_GUESTS = {
   "engrs.-john-and-vicky-kalema": "Engrs. John & Vicky Kalema",
   "mrs.-nambasa-annet": "Mrs. Nambasa Annet",
   "mr.-samula-arthur": "Mr. Samula Arthur",
-  "mrs.-nsumba-ruth": "Mrs. Nsumba Ruth",
+  "mr.-and-mrs.-nsumba-ruth": "Mr. & Mrs. Nsumba Ruth",
   "mr.-bwanika": "Mr. Bwanika",
   "ms.-nakajubi-agnes": "Ms. Nakajubi Agnes",
   "mr.-joshua-eruchu": "Mr. Joshua Eruchu",
