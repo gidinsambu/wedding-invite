@@ -114,4 +114,5 @@ window.INVITE_GUESTS = {
   "ms.-nakajubi-agnes": "Ms. Nakajubi Agnes",
   "mr.-joshua-eruchu": "Mr. Joshua Eruchu",
   "homewise": "Homewise",
+  "mr.-mabirizi-semei": "Mr. Mabirizi Semei"
 };
